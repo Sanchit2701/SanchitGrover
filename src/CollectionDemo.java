@@ -23,7 +23,6 @@ public class CollectionDemo {
         Iterator itr = list.iterator();
 
         while (itr.hasNext()){
-            System.out.println(itr);
             System.out.println(itr.next());
         }
 
