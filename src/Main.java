@@ -3,6 +3,15 @@ import java.sql.SQLOutput;
 public class Main {
     public static void main(String[] args) {
 
+        int[] circularArray = {10, 20, 30, 40, 50};
+        int size = circularArray.length;
+        int steps = 7;
+
+        for (int i = 0; i < steps; i++) {
+            int index = (i) % size;
+            System.out.println(index);
+            System.out.print(circularArray[index] + " ");
+        }
 
         /*
         Listnode node = new Listnode(1);

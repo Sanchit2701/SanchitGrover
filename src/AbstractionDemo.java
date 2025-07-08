@@ -11,14 +11,14 @@ abstract class AbstractionDemo {
                 System.out.println("Eating Pizza");
             }
         };
-    obj.run();
-    AbstractionDemo obj2 = new AbstractionDemo() {
+        obj.run();
+        AbstractionDemo obj2 = new AbstractionDemo() {
         @Override
         void eat() {
             System.out.println("Eating Dal Chawal");
         }
     };
-    obj2.eat();
+        obj2.eat();
 
     }
 }
